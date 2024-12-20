@@ -8,8 +8,6 @@ To use ImageHashComparator, you need to have Rust installed on your system. You 
 ## Building the Project
 Clone the repository and build the project using Cargo:
 ```sh
-git clone <repository_url>
-cd ImageHashComparator
 cargo build --release
 ```
 ## Running the Project
