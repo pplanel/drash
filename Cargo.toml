@@ -3,8 +3,18 @@ name = "drash"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "drash"
+path = "src/lib.rs"
+
+[[bin]]
+name = "drash"
+path = "src/main.rs"
+
 [profile.release]
 debug = true
 
 [dependencies]
 imageproc = { version = "0.25.0" }
+rustdct = "0.6.0"
+clap = { version = "4.5.4", features = ["derive"] }
